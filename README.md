@@ -1,5 +1,8 @@
 # Polygon Search Examples  
 
+## Blog
+https://joeywhelan.blogspot.com/2023/05/redis-polygon-search.html
+
 ## Contents
 1.  [Summary](#summary)
 2.  [Features](#features)
