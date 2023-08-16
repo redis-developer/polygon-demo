@@ -40,7 +40,7 @@ python3 poly.py
 ```
 
 ### Plot
-![plot](./assets/Figure_1.png)
+![plot](./assets/fig1.png)
 
 ### Results
 ```text
