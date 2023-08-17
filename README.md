@@ -40,57 +40,77 @@ python3 poly.py
 ```
 
 ### Plot
-![plot](./assets/fig1.png)
+![plot](./assets/figure1.png)
 
 ### Results
 ```text
-*** Search 1a - Polygons within the Red Polygon ***
+*** Polygons within the Red Polygon ***
 Green Polygon
 Blue Polygon
 Cyan Polygon
 
-*** Search 1b - Points within the Red Polygon ***
+*** Polygons within the Green Polygon ***
+Blue Polygon
+Cyan Polygon
+
+*** Polygons within the Blue Polygon ***
+Cyan Polygon
+
+*** Polygons within the Cyan Polygon ***
+None
+
+*** Points within the Red Polygon ***
 Purple Point
 Brown Point
 Orange Point
 Olive Point
 
-*** Search 2a - Polygons within the Green Polygon ***
-Blue Polygon
-Cyan Polygon
-
-*** Search 2b - Points within the Green Polygon ***
+*** Points within the Green Polygon ***
 Purple Point
 Brown Point
 Orange Point
 Olive Point
 
-*** Search 3a - Polygons within the Blue Polygon ***
-Cyan Polygon
-
-*** Search 3b - Points within the Blue Polygon ***
+*** Points within the Blue Polygon ***
 Purple Point
 Brown Point
 
-*** Search 4a - Polygons within the Cyan Polygon ***
-None
-
-*** Search 4b - Points within the Cyan Polygon ***
+*** Points within the Cyan Polygon ***
 Purple Point
 Brown Point
 
-*** Search 5 - Polygons containing the Red Polygon ***
+*** Polygons containing the Red Polygon ***
 None
 
-*** Search 6 - Polygons containing the Green Polygon ***
+*** Polygons containing the Green Polygon ***
 Red Polygon
 
-*** Search 7 - Polygons containing the Blue Polygon ***
+*** Polygons containing the Blue Polygon ***
 Red Polygon
 Green Polygon
 
-*** Search 8 - Polygons containing the Cyan Polygon ***
+*** Polygons containing the Cyan Polygon ***
 Red Polygon
 Green Polygon
 Blue Polygon
+
+*** Polygons containing the Purple Point ***
+Red Polygon
+Green Polygon
+Blue Polygon
+Cyan Polygon
+
+*** Polygons containing the Brown Point ***
+Red Polygon
+Green Polygon
+Blue Polygon
+Cyan Polygon
+
+*** Polygons containing the Orange Point ***
+Red Polygon
+Green Polygon
+
+*** Polygons containing the Olive Point ***
+Red Polygon
+Green Polygon
 ```
